@@ -35,4 +35,10 @@ def least_coins(cents)
 
 end
 
-least_coins(63)
+puts "Please enter your number of coins:"
+
+cents = gets.strip.to_i 
+
+puts "Here are your least number of coins:"
+
+puts least_coins(cents)
